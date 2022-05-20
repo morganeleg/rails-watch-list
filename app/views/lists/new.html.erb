@@ -1,0 +1,4 @@
+<%= simple_form_for @list do |f| %>
+  <%= f.input :name, collection:["Fiction", "Action", "Aventure","Comédie", "Comédie dramatique", "Drame", "Fantastique", "Guerre", "Policier", "Horreur", "Western", "Science-fiction" ] %>
+  <%= f.button :submit %>
+<% end %>
